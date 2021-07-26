@@ -1,0 +1,345 @@
+/*{
+	box-sizing: border-box;
+	
+}*/
+
+/* body
+body{
+	background: gray;
+}*/
+
+
+/* Navigation Bar */ 
+nav{
+	background: #594848;
+	width: 100%;
+	overflow: auto;
+    position: fixed;
+    margin-top: -8px;
+    
+}
+
+nav ul .logo img{
+    padding: 0;
+    width: 40px;
+    height: 30px;
+}
+
+ul{
+	margin: 9px;
+	padding: 0;
+	list-style: none;
+}
+li{
+	float: left;
+}
+
+
+nav a{
+	width: 120px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	background: #594848;
+	font-size: 17px;
+	color: white;
+	padding: 5px 10px;
+	margin-top: 10px;
+	font-family: Arial, fantasy;
+}
+nav a:hover{
+	background: skyblue;
+	color: black;
+    font-style: oblique;
+}
+
+/* SlideShow*/
+/*#slideshow{
+    height: 420px;
+	background: #141414;
+    
+}*/
+.slide{
+    background: black;
+    padding-bottom: 1rem;
+}
+
+.slider h1{
+	font-size: 2.1rem;
+	line-height: 1.4;
+	letter-spacing: 0.5em;
+	text-align: center;
+	color: white;
+    margin-top: 3.1rem;
+    margin-bottom: 30rem;
+}
+
+.slider .maindiv{
+	width: 70%;
+	height: 400px;
+    margin-bottom: 0rem;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	background-image: url(img/Art.jpg);
+	background-size: 100% 100%;
+	box-shadow: 1px 2px 10px 5px #3b3b3b;
+	animation: slider 15s infinite linear;
+}
+
+@keyframes slider{ 
+	0%{ background-image: url(img/Art%201.jpg);   }
+	35%{ background-image: url(img/Art%202.jpg);  }
+    75%{ background-image: url(img/Art%203.jpg);  }
+	75%{ background-image: url(img/Art%204.jpg);  }
+    75%{ background-image: url(img/Art%205.jpg);  }
+}
+
+
+/*About */
+#about{
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    background: #e8e6e6;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 50px;
+    margin-bottom: 2px;
+    padding: 1px;
+    line-height: 25px;
+}
+
+.AboutandService{
+    color: #651d1d;
+}
+
+.Service .Delivery{
+    width: 90%;
+    height: auto;
+    margin-left: 60px;
+    padding: 3px;
+    background: black;
+    color: white;
+}
+
+.dott{
+    background: black;
+    width: 100px;
+    height: 10px;
+    margin-left: 650px;
+    margin-bottom: 20px;
+}
+.dot2{
+    background: black;
+    width: 70px;
+    height: 10px;
+    margin-left: 650px;
+    margin-bottom: 50px;
+}
+
+.dot3{
+    background:  #463f3f;
+    width: 40px;
+    height: 10px;
+    margin-left: 650px;
+    margin-bottom: 20px;
+}
+
+/* Gallery */
+
+.container{
+	max-width: 1900px;
+	margin: auto;
+    padding-top: 10px;
+    padding-left: 40px;
+	background: #938080;
+    background-size: cover;
+	overflow: auto;
+    padding-bottom: 5px;
+
+}
+.gallery{
+	margin: 5px;
+	border: 1px solid #0f0e0e;
+	float: left;
+	width: 400px;
+}
+.gallery img{
+	margin-left: 35px;
+    padding-top: 15px;
+	width: 80%;
+	height: 250px;
+	filter: grayscale(100%);
+	transition: 1s;
+}
+.gallery img:hover{
+	filter: grayscale(0);
+	transform: scale(1.1);
+}
+.desc{
+	padding: 10px;
+	text-align: center;
+    color: black;
+}
+
+.desc:hover{
+    color: white;
+    transition: 1s;
+    font-size: 18px;
+}
+
+/* Services*/
+.Services{
+    background: #e8e6e6;
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    
+}
+    
+.Services .serv{
+    float: left;
+    width: 30%;
+    margin: 10px;
+    padding-left: 17px;
+}
+ .SI img{
+     width: 200px;
+    height: 100px;
+}
+
+/*.Service .Delivery span{
+    margin-left: 390px;
+    background: black;
+    color: white;
+    
+}*/
+
+/*Testimony*/
+.space{
+    background: #e5e5e5;
+    width: 1600px;
+    height: 100px;
+}
+
+
+/*Footer*/
+footer{
+	/*text-align: center;*/
+	margin-top: 3px;
+	padding-top: 5px;
+	font-weight: bold;
+	background-color: #594848;
+	color: white;
+	font-family: 'Arial Narrow','Franklin Gothic Medium', Arial, sans-serif;
+	
+}
+
+
+
+/*CEO*/
+.owner{
+	background: #151414;
+	max-width: 700px;
+	padding: 0px 1px;
+	margin:15px;
+	margin-right: 60px;
+	float: left;
+}
+
+.owner p{
+	color: #ffffff;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-style: italic;
+	padding-top: 20px;
+	text-align: center;
+    line-height: 25px; 
+}
+
+.ceo{
+	list-style: none;
+	float: left;
+	padding: 10px 3px;
+}
+ .ceo img{
+ 	width: 230px;
+ 	height: 200px;
+ }
+
+
+/*Qquote*/
+.dark{
+	margin: 20px;
+	padding: 0px;
+    background: #414141;
+    width: 240px;
+    float: left;
+}
+
+.quote{
+    margin-right: 20px;
+    padding: 5px;
+    float: left;
+    
+}
+
+.name{
+    margin: 10px;
+}
+
+.message{
+    width: 200px;
+    height: 40px;
+}
+
+.butoon_1{
+    background: white;
+    color: black;
+}
+
+.butoon_1:hover{
+    background: black;
+    color: white;
+    transition: 1s;
+}
+/*Contacts*/
+.cont{
+    font-size: 12px;
+    margin-bottom: 150px;
+    margin-top: 70px;
+    padding: 15px;
+    background: #6f6f6f;
+	width: 260px;
+	height: 200px;
+    float: left;
+    
+}
+.cont i{
+	text-align: center;
+	margin: 10px;
+	padding: 0px;
+    font-size: 16px;
+    font-style: oblique;
+    font-display: block;
+    color: rgb(0, 0, 0);
+}
+
+
+.map p{
+    padding-left: 0px;
+}
+
+footer .footer{
+	color: white;
+	margin-top: 10px;
+	padding: 5px;
+	margin-right: 130px;
+	margin-left: 70px;
+	letter-spacing: 1px;
+	font-size: 17px;
+	text-align: center;
+}
